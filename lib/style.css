@@ -1,0 +1,439 @@
+html,body,#sidebar,#container {
+    height: 100%;
+    margin: 0;
+}
+body {
+    padding-top: 50px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    overflow-y: hidden;
+}
+p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+ /*   color: #6689BC; */
+    color: #008d92 ;
+}
+label {
+    font-weight: 400;
+}
+/*--------------------------------------------------------*/
+/*--------  UI Element Color Styles  ---------------------*/
+/*------- Change to alter color theme  -------------------*/
+/*--------------------------------------------------------*/
+body, .landing, #sidebar {
+    background-color: #efefef !important;
+}
+.ofooter, .oheader {
+    background-color: #008d92 !important;
+    background: #008d92 !important;
+}
+.infowrap {
+   background-color: #f5f5f5 !important;
+}
+.infowrap, #infoheader, .footer_btn, .footernav, .ofooter, .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form, .navbar-inverse {
+    border-color: #ddd;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-nav>li>a:hover, .footer_btn:hover {
+    background-color: #DDD;
+    border-color:#DDD;
+}
+.footer_btn, #infoheader, .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a:focus, .navbar-nav>li>a, .navbar-nav>li>.dropdown  {
+  background-color: #E9E9E9;  
+}
+.navbar-inverse .navbar-toggle, .navbar-nav > li > .dropdown-menu {
+    border-color:#E9E9E9;
+}
+#indactorInfo .nav-tabs>li.active>a{
+  /*  border-bottom-color: #6689BC !important; */
+    border-bottom-color: #008d92 !important;
+}
+a, .navbar-inverse .navbar-nav>li>a, .footer_btn, .chkicon, .legend-check i {
+ /*   color: #6689BC !important; */
+    color: #008d92 !important;
+}
+.navbar-inverse .navbar-toggle .icon-bar{
+  /*  background-color: #6689BC !important; */
+    background-color: #008d92 !important;  
+}
+a:hover, .navbar-inverse .navbar-nav>li>a:hover, .footer_btn:hover , .legend-check i:hover{
+  /*  color: #5876A2 !important; */
+    color: #004649 !important; 
+}
+a, .one{
+   /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+.input-group #searchbox.form-control {
+    float: right;
+}
+.hp-tool-links {
+    background-color: #FFF;
+    border: 1px solid #B7B7B7;
+    text-align: center;
+    padding: 10px 20px 5px;
+    transition: all .3s ease-in-out;
+}
+.hp-tool-links, .stat-block {
+    box-shadow: 0 0 10px #b7b7b7;
+}
+.hp-tool-btn {
+    background-color: #312867;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    font-size: 1.2em;
+    border: none;
+}
+#needs-graphic {
+  width:100%;
+  margin:0px 0px 10px 0px
+}
+@media (max-width: 990px) {
+          #needs-graphic {
+           display: block;
+           margin-left: auto;
+           margin-right: auto;
+           width: 70%;
+          }
+}
+/*--------------------------------------------------------*/
+/*--------  Map Layer Color Styles  ---------------------*/
+/*--------------------------------------------------------*/
+#legend-icon{
+    display: inline-block;
+    height: 5px;
+    margin-right: 5px;
+    width: 40px;
+}
+.RSEF {
+    background-color: #24527F !important;
+    color:#FFF;
+}
+.RSEU {
+    background-color: #90ABD9 !important;
+    color:#FFF;
+}
+.TSPF {
+    background-color: #69883A !important;
+}
+.TSPU {
+    background-color: #B4CA8B !important;
+}
+.EXT, .EXTF {
+background-color: #795300 !important; 
+}
+.EXTU {
+background-color: #a1864c !important;
+}
+ .rdf {
+    color:#24527F;
+    font-size: 35px;
+    vertical-align: middle;
+}
+.rduf {
+    color:#90ABD9;
+    font-size: 35px;
+    vertical-align: middle;
+}
+.trf {
+    color:#69883A;
+    font-size: 35px;
+    vertical-align: middle;
+}
+.truf {
+    color:#B4CA8B;
+    font-size: 35px;
+    vertical-align: middle;
+}
+.ext {
+    color:#795300;
+    font-size: 35px;
+    vertical-align: middle;
+}
+.extuf {
+    color:#a1864c;
+    font-size: 35px;
+    vertical-align: middle;
+}
+.leaflet-label-RSEF {
+background: rgb(235, 235, 235);
+background: rgba(36,82,127, 0.90);
+border-color: rgba(35, 169, 225, 1);
+border-radius: 4px;
+border-style: solid;
+border-width: 2px;
+color: #fff;
+display: block;
+font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
+font-weight: bold;
+padding: 1px 6px;
+position: absolute;
+-webkit-user-select: none;
+   -moz-user-select: none;
+    -ms-user-select: none;
+        user-select: none;
+white-space: nowrap;
+z-index:1001;
+}
+.leaflet-label-RSEU {
+background: rgb(235, 235, 235);
+background: rgba(144,171,217, 0.90);
+border-color: rgba(35, 169, 225, 1);
+border-radius: 4px;
+border-style: solid;
+border-width: 2px;
+display: block;
+font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
+font-weight: bold;
+padding: 1px 6px;
+position: absolute;
+-webkit-user-select: none;
+   -moz-user-select: none;
+    -ms-user-select: none;
+        user-select: none;
+white-space: nowrap;
+z-index:1001;
+} 
+.leaflet-label-TF {
+background: #69883A;
+background: rgba(105,136,58, 0.90);
+background-clip: padding-box;
+border-color: #777;
+border-color: rgba(0,0,0,0.25);
+border-radius: 4px;
+border-style: solid;
+border-width: 2px;
+color: #fff;
+display: block;
+font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
+font-weight: bold;
+padding: 1px 6px;
+position: absolute;
+-webkit-user-select: none;
+   -moz-user-select: none;
+    -ms-user-select: none;
+        user-select: none;
+white-space: nowrap;
+z-index: 6;
+}
+.leaflet-label-TU {
+background: rgb(180,202,139);
+background: rgba(180,202,139, 0.90);
+border-color: rgba(180,202,139, 1);
+border-radius: 4px;
+border-style: solid;
+border-width: 2px;
+display: block;
+font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
+font-weight: bold;
+padding: 1px 6px;
+position: absolute;
+-webkit-user-select: none;
+   -moz-user-select: none;
+    -ms-user-select: none;
+        user-select: none;
+white-space: nowrap;
+z-index:1001;
+}     
+.leaflet-label-EXT {
+background: rgb(121,83,0);
+background: rgba(121,83,0,0.90);
+border-color: rgba(72,49,0, 1);
+border-radius: 4px;
+border-style: solid;
+border-width: 2px;
+color: #fff;
+display: block;
+font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
+font-weight: bold;
+padding: 1px 6px;
+position: absolute;
+-webkit-user-select: none;
+   -moz-user-select: none;
+    -ms-user-select: none;
+        user-select: none;
+white-space: nowrap;
+z-index:1001;
+} 
+.leaflet-label-EXTU {
+background: rgb(161,134,76);
+background: rgba(161,134,76,0.90);
+border-color: rgba(72,49,0, 1);
+border-radius: 4px;
+border-style: solid;
+border-width: 2px;
+color: #fff;
+display: block;
+font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
+font-weight: bold;
+padding: 1px 6px;
+position: absolute;
+-webkit-user-select: none;
+   -moz-user-select: none;
+    -ms-user-select: none;
+        user-select: none;
+white-space: nowrap;
+z-index:1001;
+}  
+.leaflet-label-NJC {
+background: rgba(255, 87, 51, 0.90);
+border-color: rgba(255, 87, 51, 1);
+border-radius: 4px;
+border-style: solid;
+border-width: 2px;
+color: #fff;
+display: block;
+font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
+font-weight: bold;
+padding: 1px 6px;
+position: absolute;
+-webkit-user-select: none;
+   -moz-user-select: none;
+    -ms-user-select: none;
+        user-select: none;
+white-space: nowrap;
+z-index:1001;
+}
+.leaflet-label-NJSL {
+background: rgba(48, 25, 52, 0.90);
+border-color: rgba(48, 25, 52, 1);
+border-radius: 4px;
+border-style: solid;
+border-width: 2px;
+color: #fff;
+display: block;
+font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
+font-weight: bold;
+padding: 1px 6px;
+position: absolute;
+-webkit-user-select: none;
+   -moz-user-select: none;
+    -ms-user-select: none;
+        user-select: none;
+white-space: nowrap;
+z-index:1001;
+}
+.leaflet-label-PAC {
+background: rgba(255, 195, 0 , 0.90);
+border-color: rgba(255, 195, 0 , 1);
+border-radius: 4px;
+border-style: solid;
+border-width: 2px;
+color: #fff;
+display: block;
+font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
+font-weight: bold;
+padding: 1px 6px;
+position: absolute;
+-webkit-user-select: none;
+   -moz-user-select: none;
+    -ms-user-select: none;
+        user-select: none;
+white-space: nowrap;
+z-index:1001;
+}
+.leaflet-label-PASH {
+background: rgba(250, 0, 72, 0.90);
+border-color: rgba( 250, 0, 72, 1);
+border-radius: 4px;
+border-style: solid;
+border-width: 2px;
+color: #fff;
+display: block;
+font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
+font-weight: bold;
+padding: 1px 6px;
+position: absolute;
+-webkit-user-select: none;
+   -moz-user-select: none;
+    -ms-user-select: none;
+        user-select: none;
+white-space: nowrap;
+z-index:1001;
+}
+.leaflet-label-PASS {
+background: rgba(178, 0, 250, 0.90);
+border-color: rgba( 178, 0, 250, 1);
+border-radius: 4px;
+border-style: solid;
+border-width: 2px;
+color: #fff;
+display: block;
+font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
+font-weight: bold;
+padding: 1px 6px;
+position: absolute;
+-webkit-user-select: none;
+   -moz-user-select: none;
+    -ms-user-select: none;
+        user-select: none;
+white-space: nowrap;
+z-index:1001;
+}
+/*--------------------------------------------------------*/
+/*--------  Map Infotable Styles  ---------------------*/
+/*--------------------------------------------------------*/
+table{
+  /*  border: 1px solid #d1d1d1; */
+    padding:5px;
+    background-color: #F1F1F1;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    padding-left: 6px;
+    text-align: center; 
+    font-size: 1.1em;
+}  
+th, td {
+    border: 1px solid #d1d1d1;
+    padding:5px;
+    background-color: #F1F1F1;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+     border-radius: 0px;
+    padding-left: 6px;
+    text-align: center; 
+    font-size: 1.1em;
+}  
+th {
+   font-size: 13px;
+} 
+
+/*--------------------------------------------------------*/
+/*--------  Table View Styles  ---------------------*/
+/*--------------------------------------------------------*/
+
+th {
+   font-size: 13px;
+}
+.table-cat-costs {
+  text-align: center;
+  background-color: #d7d7d7;
+}
+.table-cost {
+  text-align: center;
+}
+table.dataTable thead th {
+  background-color: #efefef;
+}
+#MRPtable {
+   font-size: 12px;
+   border-bottom: 0px none #111;
+}
