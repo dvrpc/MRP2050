@@ -105,6 +105,9 @@ a, .one{
   width:100%;
   margin:0px 0px 10px 0px
 }
+#mrp2050-logo{
+    height:55px;
+}
 @media (max-width: 990px) {
           #needs-graphic {
            display: block;
@@ -122,24 +125,24 @@ a, .one{
     margin-right: 5px;
     width: 40px;
 }
-.RSEF {
+.rdf_ex, .rdf_op, .rdf_pr,#rdf_ex, #rdf_op, #rdf_pr {
     background-color: #24527F !important;
     color:#FFF;
 }
-.RSEU {
+.rduf_ex, .rduf_op, .rduf_pr, #rduf_ex, #rduf_op, #rduf_pr {
     background-color: #90ABD9 !important;
     color:#FFF;
 }
-.TSPF {
+.tf_pr, .tf_ex, .tf_op, #tf_pr, #tf_ex, #tf_op   {
     background-color: #69883A !important;
 }
-.TSPU {
+.tuf_ex, .tuf_op, .tuf_pr, #tuf_ex, #tuf_op, #tuf_pr {
     background-color: #B4CA8B !important;
 }
-.EXT, .EXTF {
+.ext_fund, #ext_fund {
 background-color: #795300 !important; 
 }
-.EXTU {
+.ext_unfund, #ext_unfund {
 background-color: #a1864c !important;
 }
  .rdf {
