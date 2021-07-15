@@ -125,11 +125,11 @@ a, .one{
     margin-right: 5px;
     width: 40px;
 }
-.rdf_ex, .rdf_op, .rdf_pr,#rdf_ex, #rdf_op, #rdf_pr {
+.rdf_ex, .rdf_op, .rdf_pr,.rdf_bike, #rdf_ex, #rdf_op, #rdf_pr, #rdf_bike {
     background-color: #24527F !important;
     color:#FFF;
 }
-.rduf_ex, .rduf_op, .rduf_pr, #rduf_ex, #rduf_op, #rduf_pr {
+.rduf_ex, .rduf_op, .rduf_pr,.rduf_bike, #rduf_ex, #rduf_op, #rduf_pr, #rduf_bike {
     background-color: #90ABD9 !important;
     color:#FFF;
 }
@@ -175,7 +175,7 @@ background-color: #a1864c !important;
     font-size: 35px;
     vertical-align: middle;
 }
-.leaflet-label-RSEF {
+.leaflet-label-RSEF, .leaflet-label-rdf_bike, .leaflet-label-rdf_ex, .leaflet-label-rdf_op, .leaflet-label-rdf_pr    {
 background: rgb(235, 235, 235);
 background: rgba(36,82,127, 0.90);
 border-color: rgba(35, 169, 225, 1);
@@ -195,7 +195,7 @@ position: absolute;
 white-space: nowrap;
 z-index:1001;
 }
-.leaflet-label-RSEU {
+.leaflet-label-RSEU, .leaflet-label-rduf_bike, .leaflet-label-rduf_ex, .leaflet-label-rduf_op, .leaflet-label-rduf_pr {
 background: rgb(235, 235, 235);
 background: rgba(144,171,217, 0.90);
 border-color: rgba(35, 169, 225, 1);
@@ -214,7 +214,7 @@ position: absolute;
 white-space: nowrap;
 z-index:1001;
 } 
-.leaflet-label-TF {
+.leaflet-label-TF, .leaflet-label-tf_ex, .leaflet-label-tf_op, .leaflet-label-tf_pr   {
 background: #69883A;
 background: rgba(105,136,58, 0.90);
 background-clip: padding-box;
@@ -236,7 +236,7 @@ position: absolute;
 white-space: nowrap;
 z-index: 6;
 }
-.leaflet-label-TU {
+.leaflet-label-TU, .leaflet-label-tuf_ex, .leaflet-label-tuf_op, .leaflet-label-tuf_pr {
 background: rgb(180,202,139);
 background: rgba(180,202,139, 0.90);
 border-color: rgba(180,202,139, 1);
@@ -294,102 +294,7 @@ position: absolute;
         user-select: none;
 white-space: nowrap;
 z-index:1001;
-}  
-.leaflet-label-NJC {
-background: rgba(255, 87, 51, 0.90);
-border-color: rgba(255, 87, 51, 1);
-border-radius: 4px;
-border-style: solid;
-border-width: 2px;
-color: #fff;
-display: block;
-font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
-font-weight: bold;
-padding: 1px 6px;
-position: absolute;
--webkit-user-select: none;
-   -moz-user-select: none;
-    -ms-user-select: none;
-        user-select: none;
-white-space: nowrap;
-z-index:1001;
-}
-.leaflet-label-NJSL {
-background: rgba(48, 25, 52, 0.90);
-border-color: rgba(48, 25, 52, 1);
-border-radius: 4px;
-border-style: solid;
-border-width: 2px;
-color: #fff;
-display: block;
-font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
-font-weight: bold;
-padding: 1px 6px;
-position: absolute;
--webkit-user-select: none;
-   -moz-user-select: none;
-    -ms-user-select: none;
-        user-select: none;
-white-space: nowrap;
-z-index:1001;
-}
-.leaflet-label-PAC {
-background: rgba(255, 195, 0 , 0.90);
-border-color: rgba(255, 195, 0 , 1);
-border-radius: 4px;
-border-style: solid;
-border-width: 2px;
-color: #fff;
-display: block;
-font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
-font-weight: bold;
-padding: 1px 6px;
-position: absolute;
--webkit-user-select: none;
-   -moz-user-select: none;
-    -ms-user-select: none;
-        user-select: none;
-white-space: nowrap;
-z-index:1001;
-}
-.leaflet-label-PASH {
-background: rgba(250, 0, 72, 0.90);
-border-color: rgba( 250, 0, 72, 1);
-border-radius: 4px;
-border-style: solid;
-border-width: 2px;
-color: #fff;
-display: block;
-font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
-font-weight: bold;
-padding: 1px 6px;
-position: absolute;
--webkit-user-select: none;
-   -moz-user-select: none;
-    -ms-user-select: none;
-        user-select: none;
-white-space: nowrap;
-z-index:1001;
-}
-.leaflet-label-PASS {
-background: rgba(178, 0, 250, 0.90);
-border-color: rgba( 178, 0, 250, 1);
-border-radius: 4px;
-border-style: solid;
-border-width: 2px;
-color: #fff;
-display: block;
-font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
-font-weight: bold;
-padding: 1px 6px;
-position: absolute;
--webkit-user-select: none;
-   -moz-user-select: none;
-    -ms-user-select: none;
-        user-select: none;
-white-space: nowrap;
-z-index:1001;
-}
+} 
 /*--------------------------------------------------------*/
 /*--------  Map Infotable Styles  ---------------------*/
 /*--------------------------------------------------------*/
