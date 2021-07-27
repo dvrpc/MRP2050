@@ -105,8 +105,9 @@ a, .one{
   width:100%;
   margin:0px 0px 10px 0px
 }
-#mrp2050-logo{
-    height:55px;
+#mrp2050-logo {
+    height: 43px;
+    margin-top: 2px;
 }
 @media (max-width: 990px) {
           #needs-graphic {
