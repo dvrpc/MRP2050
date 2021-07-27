@@ -255,7 +255,7 @@ position: absolute;
 white-space: nowrap;
 z-index:1001;
 }     
-.leaflet-label-EXT {
+.leaflet-label-EXT, .leaflet-label-ext_fund {
 background: rgb(121,83,0);
 background: rgba(121,83,0,0.90);
 border-color: rgba(72,49,0, 1);
@@ -275,7 +275,7 @@ position: absolute;
 white-space: nowrap;
 z-index:1001;
 } 
-.leaflet-label-EXTU {
+.leaflet-label-EXTU, .leaflet-label-ext_unfund  {
 background: rgb(161,134,76);
 background: rgba(161,134,76,0.90);
 border-color: rgba(72,49,0, 1);
