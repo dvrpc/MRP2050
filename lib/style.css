@@ -109,6 +109,16 @@ a, .one{
     height: 43px;
     margin-top: 2px;
 }
+/* #mainPage i, .fund-table i {
+    font-size: 12px !important;
+    margin-bottom: 20px !important;
+} */
+#aboutMRP p {
+margin-top:20px;
+}
+#aboutContact {
+    margin-top:20px;
+}
 @media (max-width: 990px) {
           #needs-graphic {
            display: block;
