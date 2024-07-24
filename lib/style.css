@@ -15,7 +15,7 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 500;
     line-height: 1.1;
  /*   color: #6689BC; */
-    color: #704775 ;
+    color: #706688 ;
 }
 label {
     font-weight: 400;
@@ -28,10 +28,10 @@ body, .landing, #sidebar {
     background-color: #efefef !important;
 }
 .ofooter, .oheader {
-    /* background-color: #704775 !important;
-    background: #704775 !important; */
-    background-color: #704775 !important;
-    background: #704775 !important;
+    /* background-color: #706688 !important;
+    background: #706688 !important; */
+    background-color: #706688 !important;
+    background: #706688 !important;
 }
 .infowrap {
    background-color: #f5f5f5 !important;
@@ -51,19 +51,19 @@ body, .landing, #sidebar {
 }
 #indactorInfo .nav-tabs>li.active>a{
   /*  border-bottom-color: #6689BC !important; */
-    border-bottom-color: #704775 !important;
+    border-bottom-color: #706688 !important;
 }
 a, .navbar-inverse .navbar-nav>li>a, .footer_btn, .chkicon, .legend-check i {
  /*   color: #6689BC !important; */
-    color: #704775 !important;
+    color: #706688 !important;
 }
 .navbar-inverse .navbar-toggle .icon-bar{
   /*  background-color: #6689BC !important; */
-    background-color: #704775 !important;  
+    background-color: #706688 !important;  
 }
 a:hover, .navbar-inverse .navbar-nav>li>a:hover, .footer_btn:hover , .legend-check i:hover{
   /*  color: #5876A2 !important; */
-    color: #004649 !important; 
+    color: #433c59!important; 
 }
 a, .one{
    /* These are technically the same, but use both */
