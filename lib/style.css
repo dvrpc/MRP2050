@@ -15,7 +15,7 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 500;
     line-height: 1.1;
  /*   color: #6689BC; */
-    color: #008d92 ;
+    color: #704775 ;
 }
 label {
     font-weight: 400;
@@ -28,8 +28,10 @@ body, .landing, #sidebar {
     background-color: #efefef !important;
 }
 .ofooter, .oheader {
-    background-color: #008d92 !important;
-    background: #008d92 !important;
+    /* background-color: #704775 !important;
+    background: #704775 !important; */
+    background-color: #704775 !important;
+    background: #704775 !important;
 }
 .infowrap {
    background-color: #f5f5f5 !important;
@@ -49,15 +51,15 @@ body, .landing, #sidebar {
 }
 #indactorInfo .nav-tabs>li.active>a{
   /*  border-bottom-color: #6689BC !important; */
-    border-bottom-color: #008d92 !important;
+    border-bottom-color: #704775 !important;
 }
 a, .navbar-inverse .navbar-nav>li>a, .footer_btn, .chkicon, .legend-check i {
  /*   color: #6689BC !important; */
-    color: #008d92 !important;
+    color: #704775 !important;
 }
 .navbar-inverse .navbar-toggle .icon-bar{
   /*  background-color: #6689BC !important; */
-    background-color: #008d92 !important;  
+    background-color: #704775 !important;  
 }
 a:hover, .navbar-inverse .navbar-nav>li>a:hover, .footer_btn:hover , .legend-check i:hover{
   /*  color: #5876A2 !important; */
